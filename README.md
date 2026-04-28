@@ -29,4 +29,7 @@ Thus, implementing a fixed point model is best suitable as it has lesser complex
 ## Results
 - The coefficient values generated using scipy library are - [-0.00131688, 0.02637484, 0.15577481, 0.31916723, 0.31916723,  0.15577481, 0.02637484, -0.00131688]
 - The shifted values of x[n] across the 8 cycles, the final y[n] values and the MSE value are as shown below :
-  
+
+  <p align="center">
+  <img src="FixedPointFIRResults.png" alt="Fixed-Point FIR Results" width="600"/>
+  </p>
