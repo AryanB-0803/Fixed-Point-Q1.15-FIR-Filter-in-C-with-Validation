@@ -35,7 +35,15 @@ Thus, implementing a fixed point model is best suitable as it has lesser complex
   <img src="FixedPointFIRResults.png" alt="Fixed-Point FIR Results" width="600"/>
   </p>
 
+- The plots of MSE vs fractional bits and per sample error vs format are shown below:
+<p align="center">
+  <img src="plots/MSE_vs_FixedPointLength.png" alt="MSE v/s FixedPointLength" width="600"/>
+  </p>
+
+<p align="center">
+  <img src="plots/PerSampleError_vs_Format.png" alt="Per sample error v/s Format" width="600"/>
+  </p>  
+
 ## Future Work
-- Add comparison of MSE and error in cycles when different formats are used i.e Q1.11, Q1.7
 - Extend to hardware implementation in Verilog
 
